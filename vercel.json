@@ -39,9 +39,5 @@
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     }
-  ],
-  "images": {
-    "domains": ["makhathiniplumbers.co.za"],
-    "formats": ["image/avif", "image/webp"]
-  }
+  ]
 }
