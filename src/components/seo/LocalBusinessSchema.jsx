@@ -12,7 +12,7 @@ const LocalBusinessSchema = () => {
     "url": "https://makhathiniplumbers.co.za",
     "telephone": "+27765969429",
     "email": "makhathiniplumbing@gmail.com",
-    "priceRange": "$$",
+    "priceRange": "R450 - R15,000",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Amanzimtoti Main Road",
@@ -45,15 +45,13 @@ const LocalBusinessSchema = () => {
     ],
     "hasMap": "https://maps.google.com/?q=Amanzimtoti+South+Africa",
     "paymentAccepted": "Cash, EFT, Credit Card",
-    "priceRange": "R450 - R15,000",
     "foundingDate": "2012",
     "founders": [
       {
         "@type": "Person",
         "name": "Makhathini Family"
       }
-    ],
-    "description": "Family-owned plumbing business serving Amanzimtoti and South Coast since 2012. BBBEE Level 1, PIRB registered, fully insured."
+    ]
   }
 
   return (
