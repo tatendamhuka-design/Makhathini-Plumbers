@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import { FaWhatsapp, FaBars, FaTimes } from 'react-icons/fa'
+import { FaWhatsapp, FaBars, FaBuilding, FaChartLine } from 'react-icons/fa'
 import MobileMenu from './MobileMenu'
 import logo from '../../assets/images/logo.jpg'
 
@@ -17,6 +17,27 @@ const Header = () => {
 
   return (
     <>
+      {/* Top Bar - BBBEE and Company Registration */}
+      <div className="bg-gradient-to-r from-teal-700 to-teal-600 text-white py-2 px-4">
+        <div className="container-custom">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-xs md:text-sm">
+            <span className="flex items-center gap-2">
+              <FaChartLine className="text-green-300" />
+              <span className="font-semibold">BBBEE Level 1 Contributor - 100% Compliance</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <FaBuilding className="text-blue-300" />
+              <span className="font-semibold">Reg No: 2013/0652060/07</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span className="bg-white/20 px-2 py-0.5 rounded-full text-xs">🏆</span>
+              <span>Fully Licensed & Insured</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Header */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
         <div className="container-custom">
           <div className="flex items-center justify-between py-4">
